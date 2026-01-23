@@ -133,8 +133,10 @@ export default function Footer() {
       </div>
 
       {/* FOOTER TEXT */}
-      <div className="absolute bottom-6 left-0 right-0 text-center text-white text-sm opacity-90">
-        <p>© 2025 Prem and Brothers. All rights reserved.</p>
+      <div className="absolute bottom-4 left-0 right-0 text-center text-white text-sm opacity-90">
+        <p>© 2025 Prem and Brothers. All rights reserved. </p>
+        
+        
       </div>
 
     </section>

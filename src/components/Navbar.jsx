@@ -64,6 +64,7 @@ export default function Navbar() {
             <a href="/about" className="hover:text-yellow-500 transition-colors">ABOUT US</a>
             <a href="/muft" className="hover:text-yellow-500 transition-colors">PM MUFT BIJLI YOJANA</a>
             <a href="/choose" className="hover:text-yellow-500 transition-colors">WHY CHOOSE US</a>
+              <a href="/portfolio" className="block hover:text-yellow-500 transition-colors">PORTFOLIO</a>
             <a href="/contact" className="hover:text-yellow-500 transition-colors">CONTACT US</a>
           </nav>
 
@@ -84,6 +85,7 @@ export default function Navbar() {
             <a href="/about" className="block hover:text-yellow-500 transition-colors">ABOUT US</a>
             <a href="/muft" className="block hover:text-yellow-500 transition-colors">PM MUFT BIJLI YOJANA</a>
             <a href="/choose" className="block hover:text-yellow-500 transition-colors">WHY CHOOSE US</a>
+             <a href="/portfolio" className="block hover:text-yellow-500 transition-colors">PORTFOLIO</a>
             <a href="/contact" className="block hover:text-yellow-500 transition-colors">CONTACT US</a>
           </div>
         )}
