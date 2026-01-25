@@ -61,7 +61,7 @@ export default function SolarFAQ() {
           {faqs.map((item, index) => (
             <div
               key={index}
-              className="  rounded-lg  bg-white  overflow-hidden  shadow-sm border   border-gray-200"
+              className="rounded-lg  bg-white  overflow-hidden  shadow-sm border   border-gray-200"
             >
               <button
                 onClick={() =>

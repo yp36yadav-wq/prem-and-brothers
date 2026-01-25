@@ -6,25 +6,40 @@ export default function Calculator() {
   const [centralSubsidy, setCentralSubsidy] = useState(30000);
   const [stateSubsidy, setStateSubsidy] = useState(15000);
   const [totalSubsidy, setTotalSubsidy] = useState(45000);
+  const [totalCost, setTotalCost] = useState(65000);
+  const [netCost, setNetCost] = useState(20000);
 
   const subsidyData = {
-    1: { central: 30000, state: 15000 },
-    2: { central: 60000, state: 30000 },
-    3: { central: 78000, state: 30000 },
-    4: { central: 78000, state: 30000 },
+    1: { central: 30000, state: 15000, total: 45000, cost: 65000, net: 20000 },
+    2: { central: 60000, state: 30000, total: 90000, cost: 135000, net: 45000 },
+    3: { central: 78000, state: 30000, total: 108000, cost: 185000, net: 77000 },
+    4: { central: 78000, state: 30000, total: 108000, cost: 240000, net: 132000 },
+    5: { central: 78000, state: 30000, total: 108000, cost: 290000, net: 182000 },
+    6: { central: 78000, state: 30000, total: 108000, cost: 330000, net: 222000 },
+    7: { central: 78000, state: 30000, total: 108000, cost: 385000, net: 277000 },
+    8: { central: 78000, state: 30000, total: 108000, cost: 400000, net: 292000 },
+    9: { central: 78000, state: 30000, total: 108000, cost: 450000, net: 342000 },
+    10: { central: 78000, state: 30000, total: 108000, cost: 500000, net: 392000 },
   };
 
+  // Update subsidy data when capacity changes
   useEffect(() => {
-    const data = subsidyData[capacity] || subsidyData[4];
+    const data = subsidyData[capacity] || subsidyData[10];
     setCentralSubsidy(data.central);
     setStateSubsidy(data.state);
-    setTotalSubsidy(data.central + data.state);
+    setTotalSubsidy(data.total);
+    setTotalCost(data.cost);
+    setNetCost(data.net);
   }, [capacity]);
+
+  const handleManualChange = (value) => {
+    setCapacity(value);
+  };
 
   const formatCurrency = (value) => `₹${value.toLocaleString("en-IN")}`;
 
   return (
-    <div className=" bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
 
@@ -44,23 +59,24 @@ export default function Calculator() {
               <input
                 type="range"
                 min="1"
-                max="4"
+                max="10"
                 step="1"
                 value={capacity}
-                onChange={(e) => setCapacity(+e.target.value)}
+                onChange={(e) => handleManualChange(+e.target.value)}
                 className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
                 style={{
                   background: `linear-gradient(to right, #4f46e5 0%, #4f46e5 ${
-                    ((capacity - 1) / 3) * 100
-                  }%, #e5e7eb ${((capacity - 1) / 3) * 100}%)`,
+                    ((capacity - 1) / 9) * 100
+                  }%, #e5e7eb ${((capacity - 1) / 9) * 100}%)`,
                 }}
               />
 
               <div className="flex justify-between text-xs text-gray-500 mt-1">
                 <span>1kW</span>
-                <span>2kW</span>
                 <span>3kW</span>
-                <span>4kW+</span>
+                <span>5kW</span>
+                <span>7kW</span>
+                <span>10kW</span>
               </div>
             </div>
 
@@ -81,7 +97,7 @@ export default function Calculator() {
               </div>
 
               <div className="bg-indigo-50 border border-indigo-300 rounded-lg p-3">
-                <p className="text-xs text-indigo-700">Total</p>
+                <p className="text-xs text-indigo-700">Total Subsidy</p>
                 <p className="font-bold text-indigo-900">
                   {formatCurrency(totalSubsidy)}
                 </p>
@@ -100,20 +116,30 @@ export default function Calculator() {
                   <span className="font-medium">{capacity} kW</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Central</span>
+                  <span>Central Subsidy</span>
                   <span className="font-medium text-blue-800">
                     {formatCurrency(centralSubsidy)}
                   </span>
                 </div>
                 <div className="flex justify-between">
-                  <span>State</span>
+                  <span>State Subsidy</span>
                   <span className="font-medium text-green-800">
                     {formatCurrency(stateSubsidy)}
                   </span>
                 </div>
+                <div className="flex justify-between">
+                  <span>Total Subsidy</span>
+                  <span className="font-medium text-indigo-800">
+                    {formatCurrency(totalSubsidy)}
+                  </span>
+                </div>
+                <div className="flex justify-between bg-yellow-100 rounded-md px-3 py-2 font-bold">
+                  <span>Total Cost</span>
+                  <span className="text-orange-900">{formatCurrency(totalCost)}</span>
+                </div>
                 <div className="flex justify-between bg-indigo-100 rounded-md px-3 py-2 font-bold">
-                  <span>Total</span>
-                  <span>{formatCurrency(totalSubsidy)}</span>
+                  <span>Net Cost After Subsidy</span>
+                  <span className="text-indigo-900">{formatCurrency(netCost)}</span>
                 </div>
               </div>
             </div>
