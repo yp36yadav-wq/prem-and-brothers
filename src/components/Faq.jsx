@@ -61,14 +61,14 @@ export default function SolarFAQ() {
           {faqs.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden"
+              className="  rounded-lg  bg-white  overflow-hidden  shadow-sm border   border-gray-200"
             >
               <button
                 onClick={() =>
                   setOpenIndex(openIndex === index ? null : index)
                 }
-                className="w-full  items-center   items-center  flex justify-betweenp-4 text-left
-                font-medium text-gray-800 hover:bg-blue-50 transition"
+                className="w-full  flex justify-between  hover:bg-blue-50  transition items-center   text-left  p-4   
+                font-medium text-gray-800   "
               >
                 <span className="text-sm sm:text-base">{item.q}</span>
                 <span className="text-blue-600 text-lg font-bold">
