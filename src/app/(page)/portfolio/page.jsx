@@ -340,9 +340,9 @@ export default function SolarPanelGallery() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-center justify-center">
                   {/* Hover Eye Icon - No Blur */}
                   <div className="absolute inset-0 bg-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <div className="bg-white/30 p-4 rounded-full">
+                    {/* <div className="bg-white/30 p-4 rounded-full">
                       <Eye className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 text-white drop-shadow-lg" />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
