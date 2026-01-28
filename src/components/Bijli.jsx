@@ -43,83 +43,83 @@ export default function SubsidySection() {
               <tbody className="text-center">
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">1 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">15,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">45,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">65,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">20,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">17,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">49,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">74,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">25,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">2 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">60,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">90,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">1,35,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">45,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">62,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">94,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">1,44,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">50,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">3 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">1,85,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">77,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">1,94,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">82,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">4 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">2,40,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">1,32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">2,49,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">1,37,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">5 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">2,90,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">1,82,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">2,99,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">1,87,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">6 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">3,30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,22,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">3,39,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,27,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">7 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">3,85,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,77,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">3,94,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,82,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">8 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">4,00,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,92,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">4,09,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">2,97,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">9 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">4,50,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">3,42,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">4,59,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">3,47,000</td>
                 </tr>
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold text-blue-900">10 KW</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">78,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">30,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,08,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">5,00,000</td>
-                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">3,92,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">80,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">32,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 font-semibold">1,12,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5 bg-yellow-50 font-bold text-orange-600">5,09,000</td>
+                  <td className="border border-gray-300 px-2 md:px-3 py-1.5">3,97,000</td>
                 </tr>
               </tbody>
             </table>

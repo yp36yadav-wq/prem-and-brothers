@@ -40,7 +40,7 @@ export default function Stand() {
 
           {/* IMAGE */}
           <img
-            src="https://i.pinimg.com/1200x/dc/57/05/dc57057440b43a4f84eeee92dbd80c41.jpg"
+            src="https://i.pinimg.com/1200x/dd/f4/78/ddf47897a1c7c32ed2c343cc33472c15.jpg"
             alt="PM Surya Ghar Muft Bijli Yojana"
             className="w-full h-full  object-top object-cover"
           />
